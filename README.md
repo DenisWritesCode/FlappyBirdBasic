@@ -1,4 +1,9 @@
-# Flappy Bird
+# Flappy 
+
+**STACK** 
+    - HTML
+    - CSS
+    - jQuery
 
 Two buttons.
 > Click on **UP** bird bounces up. 
