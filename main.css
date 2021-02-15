@@ -9,8 +9,26 @@ body{
     margin: auto;
 }
 
+.console {
+    border: 2px solid black;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img{
+    
     height: 75px;
+}
+
+.up-go {
+    animation: up 1s;
+}
+
+.down-go {
+    animation: down 1s;
 }
 
 .controls {
@@ -31,3 +49,22 @@ button:nth-child(2){
     background-color: red;
 }
 
+@keyframes up{
+    from{
+        transform: translateY(0px);
+
+    }
+    to{
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes down{
+    from{
+        transform: translateY(0px);
+
+    }
+    to{
+        transform: translateY(100px);
+    }
+}
